@@ -26,3 +26,4 @@ clist=data["result"]["results"] # Access the "results" list inside the "result" 
 with open("data.txt","w",encoding="utf-8") as file:
     for company in clist:
         file.write(company["公司名稱"]+"\n")
+
